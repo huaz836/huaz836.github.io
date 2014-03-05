@@ -1,0 +1,66 @@
+/**
+ * main.css
+ */
+
+
+/* normalize */
+@import "http://necolas.github.io/normalize.css/3.0.0/normalize.css";
+
+
+/* google font */
+@import "https://fonts.googleapis.com/css?family=Oxygen";
+@import "https://fonts.googleapis.com/css?family=Oswald:400";
+@import "https://fonts.googleapis.com/css?family=Josefin+Sans";
+
+
+/* Font Awesome */
+@import "http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css";
+/*
+@import "//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.css";
+@import "../../libs/font-awesome-4.0.3/css/font-awesome.min.css";
+*/
+
+/*
+@font-face {
+    font-family: Josefin Sans;
+    src: url('style/font/JosefinSans-Regular.ttf');
+}
+*/
+
+body {
+    background: #ecf0f1;
+    background: #F0EDE3 url(../images/argyle.png);
+
+    font-size: 14px;
+    font-family: "Lekton", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #555;
+    
+    font-family: oxygen,sans-serif;
+    color: #33290A;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: oswald,helvetica,sans-serif;
+}
+
+
+a {
+    color: #3357D6;
+    text-decoration: none;
+    transition: color 0.25s;
+}
+
+
+a:visited {
+    color: #865796;
+    text-decoration: none;
+}
+
+
+a:hover,
+a:active {
+    color: #B39223;
+    text-decoration: none;
+}
