@@ -45,6 +45,7 @@ body {
                 url("../images/page_gradient_linear.svg") 50% 10% repeat-x,
                 #AAF50C;
                 /*#AED8D1*/
+    background-size:1600px 600px, 100% 500px,auto;
     background-size:100%;
 }
 
