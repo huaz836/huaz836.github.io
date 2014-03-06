@@ -39,6 +39,13 @@ body {
     
     font-family: oxygen,sans-serif;
     color: #33290A;
+    
+    /*background gradients*/
+    background: url("../images/page_gradient_radial.svg") no-repeat fixed center,
+                url("../images/page_gradient_linear.svg") 50% 10% repeat-x,
+                #AAF50C;
+                /*#AED8D1*/
+    background-size:100%;
 }
 
 
